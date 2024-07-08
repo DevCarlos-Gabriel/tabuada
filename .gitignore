@@ -1,1 +1,7 @@
 /target
+
+/debug
+
+.gitattributes
+
+Cargo.lock
