@@ -1,16 +1,14 @@
 use std::io;
 
 fn main() {
-    println!("Olá sou um programa que calcula qualquer tipo de tabuada\n\
-    Apenas digite o número e a operação que você quer e eu vou gerá-la.\n\
-    Para que a tabua da seja gerada corretamente você precisa informar:\n\
+    println!("Digite o número e a operação que você quer e eu vou gerá-la.\n\
+    Para que a tabuada seja gerada corretamente você precisa informar:\n\
   - O número que você deseja saber a tabuada;\n\
   - A operação matemática que você deseja utilizar (+, -, *, / ou todas juntas);\n\
-  - E até quando esse número sera multiplicado.\n\
+  - E até quando esse número será calculado.\n\
   \n");
 
-  println!("Vamos começar!\n\
-  Digite um número:\n");
+  println!("Digite um número:\n");
   
     let mut num = String::new();
   
